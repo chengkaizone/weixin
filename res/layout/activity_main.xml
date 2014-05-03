@@ -1,0 +1,161 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/main_btn0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取token" />
+
+            <Button
+                android:id="@+id/main_btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创建分组" />
+
+            <Button
+                android:id="@+id/main_btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查询分组" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/main_btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查询所在分组" />
+
+            <Button
+                android:id="@+id/main_btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重命名分组" />
+
+            <Button
+                android:id="@+id/main_btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="移动到新分组" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/main_btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取用户信息" />
+
+            <Button
+                android:id="@+id/main_btn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取关注者列表" />
+
+            <Button
+                android:id="@+id/main_btn8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创建自定义菜单" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/main_btn9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查询自定义菜单" />
+
+            <Button
+                android:id="@+id/main_btn10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="删除自定义菜单" />
+
+            <Button
+                android:id="@+id/main_btn11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发送文本消息" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/main_btn12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发送图片消息" />
+
+            <Button
+                android:id="@+id/main_btn13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发送语音消息" />
+
+            <Button
+                android:id="@+id/main_btn14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发送视频消息" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/main_btn15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发送音乐消息" />
+
+            <Button
+                android:id="@+id/main_btn16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发送图文消息" />
+
+            <Button
+                android:id="@+id/main_btn17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创建二维码" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/main_btn18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="获取二维码" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

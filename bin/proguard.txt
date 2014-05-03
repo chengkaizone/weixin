@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:16
+-keep class org.lance.weixin.main.MainActivity { <init>(...); }
+
